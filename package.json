@@ -24,8 +24,7 @@
     "url": "https://github.com/ifkas/restful-api-vercel/issues"
   },
   "homepage": "https://github.com/ifkas/restful-api-vercel#readme",
-  "dependencies": {},
   "devDependencies": {
-    "json-server": "^0.17.1"
+    "json-server": "^0.17.3"
   }
 }
