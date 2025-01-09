@@ -1,48 +1,44 @@
 {
-    "notes": [
-      {
-        "id": 1,
-        "title": "title",
-        "description": "description",
-        "tags": [
-          "tag1",
-          "tag2"
-        ],
-        "date": "15/08/2023",
-        "completed": false
-      },
-      {
-        "id": 2,
-        "title": "title2",
-        "description": "description2",
-        "tags": [
-          "tag1"
-        ],
-        "date": "15/08/2023",
-        "completed": false
-      },
-      {
-        "id": 3,
-        "title": "title3",
-        "description": "description3",
-        "tags": [
-          "tag1",
-          "tag2"
-        ],
-        "date": "15/08/2023",
-        "completed": false
-      },
-      {
-        "id": 4,
-        "title": "title4",
-        "description": "description4",
-        "tags": [
-          "tag1",
-          "tag2",
-          "tag3"
-        ],
-        "date": "15/08/2023",
-        "completed": false
-      }
-    ]
-  }
+  "notes": [
+    {
+      "id": 1,
+      "title": "title",
+      "description": "description",
+      "tags": ["tag1", "tag2"],
+      "date": "15/08/2023",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "title2",
+      "description": "description2",
+      "tags": ["tag1"],
+      "date": "15/08/2023",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "title3",
+      "description": "description3",
+      "tags": ["tag1", "tag2"],
+      "date": "15/08/2023",
+      "completed": false
+    },
+    {
+      "id": 4,
+      "title": "title4",
+      "description": "description4",
+      "tags": ["tag1", "tag2", "tag3"],
+      "date": "15/08/2023",
+      "completed": false
+    }
+  ],
+  "redirect": [
+    {
+      "id": 1,
+      "appId": "google",
+      "date": "2025-01-01",
+      "redirect_url": "https://www.google.com"
+    }
+  ]
+}
