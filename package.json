@@ -1,10 +1,11 @@
 {
   "name": "restful-api-vercel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a ready RESTful API created with the JSON Server package",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon api/index.js"
   },
   "repository": {
     "type": "git",
@@ -26,5 +27,13 @@
   "homepage": "https://github.com/ifkas/restful-api-vercel#readme",
   "devDependencies": {
     "json-server": "^0.17.3"
+  },
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0",
+    "nodemon": "^3.1.9"
   }
 }
