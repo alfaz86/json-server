@@ -50,6 +50,13 @@ exports.setPaymentHandler = async (req, res) => {
 };
 
 exports.redirectPaymentHandler = async (req, res) => {
+  console.log('Request received:', {
+    method: req.method,
+    headers: req.headers,
+    query: req.query,
+    body: req.body,
+  });
+
   const app_code = getAppCode(req, "GET");
   if (!app_code) {
     return res.status(400).json({ message: 'app_code is required' });
